@@ -1,6 +1,6 @@
 # Customization Guide
 
-How to make Stella Decks look like your brand.
+How to make Google Slides to HTML look like your brand.
 
 ## Step 1: Define Your Design System
 

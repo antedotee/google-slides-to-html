@@ -1,12 +1,12 @@
-# Stella Decks
+# Google Slides to HTML
 
 An HTML slide deck system with a design system, browser viewer, and pixel-perfect PDF export. Built for AI-native workflows with [Claude Code](https://claude.ai/code).
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/rsarver/stella-decks.git
-cd stella-decks
+git clone https://github.com/kartikyadav/google-slides-to-html.git
+cd google-slides-to-html
 npm install
 npm start
 ```
@@ -33,7 +33,7 @@ You talk strategy and narrative. Claude handles the files.
 
 ## Skills
 
-Stella Decks ships with two Claude Code skills that do the heavy lifting:
+Google Slides to HTML ships with two Claude Code skills that do the heavy lifting:
 
 **`/design-setup`** — Build your design system through conversation. Describe a vibe ("clean, confident, dark editorial"), pick from visual directions Claude proposes, or drop brand materials into `context/` and let Claude extract the palette and tone. Claude proposes specific hex values, named Google Fonts, pixel spacing, and opinionated design principles written in your voice, then writes DESIGN.md and updates the CSS tokens. One good sentence about what you want is enough to generate an entire design system.
 
@@ -53,7 +53,7 @@ Manual path: edit DESIGN.md and the `:root` tokens in deck.css directly.
 ## Project Structure
 
 ```
-stella-decks/
+google-slides-to-html/
   decks/
     styles/deck.css              # Shared design system (token-driven CSS)
     assets/                      # Shared images across decks
@@ -98,7 +98,7 @@ Templates: `dark-atmosphere`, `light-spot`, `domain-icon`, `hero-background`, `c
 
 ## Deploy
 
-Stella Decks is static HTML. Deploy anywhere:
+Google Slides to HTML is static HTML. Deploy anywhere:
 
 - **Vercel:** `npx vercel` with a rewrite: `{ "source": "/:deck", "destination": "/viewer/index.html?deck=:deck" }`
 - **GitHub Pages / Netlify / Cloudflare Pages:** Push the repo. No build step needed.

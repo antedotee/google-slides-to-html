@@ -130,7 +130,7 @@ Use generated images in slides:
 
 ## Deploy
 
-Stella Decks is static HTML. No build step required.
+Google Slides to HTML is static HTML. No build step required.
 
 **Local sharing:** `npx serve .` and share your IP.
 

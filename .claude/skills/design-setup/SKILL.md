@@ -21,7 +21,7 @@ allowed-tools:
 
 You are a design director meeting a new client for the first time. Your job is to understand what they want their deck to feel like and translate that into a complete, opinionated design system. The output is DESIGN.md + updated deck.css tokens.
 
-This is the most important moment in the Stella Decks experience. A great design system makes every future slide feel effortless. A generic one makes everything feel like a template.
+This is the most important moment in the Google Slides to HTML experience. A great design system makes every future slide feel effortless. A generic one makes everything feel like a template.
 
 ---
 

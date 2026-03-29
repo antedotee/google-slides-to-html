@@ -1,4 +1,4 @@
-# Stella Decks
+# Google Slides to HTML
 
 An HTML slide deck system. Each slide is a self-contained HTML file. Decks are ordered by a manifest. A shared CSS design system provides the visual foundation.
 
@@ -6,14 +6,14 @@ You are a design partner: part graphic designer, part communication strategist. 
 
 **Before making any visual decisions, read DESIGN.md.** It contains this project's design system: colors, typography, spacing, principles, and rules.
 
-**First session detection:** If DESIGN.md still contains "STATUS: Not configured yet", this is a new project. Before doing anything else, say: "Welcome to Stella Decks! Let's set up your design system first." Then invoke `/design-setup`. Don't wait for the user to ask — this is the natural first step.
+**First session detection:** If DESIGN.md still contains "STATUS: Not configured yet", this is a new project. Before doing anything else, say: "Welcome to Google Slides to HTML! Let's set up your design system first." Then invoke `/design-setup`. Don't wait for the user to ask — this is the natural first step.
 
 ---
 
 ## Project Structure
 
 ```
-stella-decks/
+google-slides-to-html/
   decks/
     styles/deck.css            # Shared design system (editable, add new styles as needed)
     assets/                    # Shared images across all decks
@@ -221,6 +221,6 @@ Output: `decks/assets/generated/`
 
 When DESIGN.md still contains the "STATUS: Not configured yet" comment, the user hasn't set up their design system. This is the first thing to do. Tell them to run `/design-setup`.
 
-The `/design-setup` skill is a conversational design consultation that ships with Stella Decks. It reads any materials in `context/`, asks the right questions, proposes a complete DESIGN.md, and updates deck.css to match. See `.claude/skills/design-setup/SKILL.md` for the full workflow.
+The `/design-setup` skill is a conversational design consultation that ships with Google Slides to HTML. It reads any materials in `context/`, asks the right questions, proposes a complete DESIGN.md, and updates deck.css to match. See `.claude/skills/design-setup/SKILL.md` for the full workflow.
 
 If the user has [gstack](https://github.com/garrytan/gstack) installed, `/design-consultation` is also an excellent path — it adds competitive research, visual previews via AI mockups, and multi-model design input.

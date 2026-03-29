@@ -186,7 +186,7 @@ async function composePdf() {
   }
 
   pdf.setTitle(manifest.title);
-  pdf.setCreator('Stella Decks');
+  pdf.setCreator('Google Slides to HTML');
   pdf.setProducer('puppeteer + pdf-lib');
 
   const pdfBytes = await pdf.save();

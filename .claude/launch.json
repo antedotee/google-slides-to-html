@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "stella-preview",
+      "name": "google-slides-to-html-preview",
       "runtimeExecutable": "npx",
       "runtimeArgs": ["serve", "."],
       "port": 3000

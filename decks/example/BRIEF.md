@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A starter deck demonstrating the Stella Decks design system. Each slide shows a different layout pattern: cover, stats grid, narrative assertion, hero case study, and close.
+A starter deck demonstrating the Google Slides to HTML design system. Each slide shows a different layout pattern: cover, stats grid, narrative assertion, hero case study, and close.
 
 ## Audience
 
